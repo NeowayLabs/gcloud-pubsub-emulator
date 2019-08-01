@@ -18,6 +18,6 @@ The following example shows how to start the *Pub Sub* emulator to listen in `19
 
     docker run --rm neowaylabs/gcloud-pubsub-emulator start --host-port=192.168.0.9:8489 --data-dir=/pubsub
 
-By default, the image is set to listen on `0.0.0.0: 8085` and store its files in the`/data` directory.
+By default, the image is set to listen on `0.0.0.0:8085` and store its files in the`/data` directory.
 
 > Notice the usage of the `PUBSUB_EMULATOR_HOST` to let the pubsub client know about the emulator.
